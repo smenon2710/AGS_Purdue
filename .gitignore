@@ -1,0 +1,57 @@
+# macOS system files
+.DS_Store
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+*.env
+immigration_bot/.env
+PersonalExpenseTracker/.env
+
+# FAISS index (large binary data)
+immigration_bot/faiss_index/
+
+# Data (optional - if regenerated)
+data/processed/
+immigration_bot/data/processed/
+
+# Local test scripts
+immigration_bot/backend/test_faiss_query.py
+testpath.py
+
+# Dataset files (uncomment if not tracking large PDFs or CSVs)
+#*.pdf
+*.csv
+
+# VS Code
+.vscode/
+*.history
+.streamlit/secrets.toml
+
+
+# Bytecode and Python cache
+__pycache__/
+*.py[cod]
+*.sqlite
+*.db
+
+# Local data & temp files
+#nl2insights/data/
+nl2insights/output/
+
+# Streamlit config and secrets
+.streamlit/secrets.toml
+
+# Mac system files
+.DS_Store
+
+# Virtual environments
+.venv/
+env/
