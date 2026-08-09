@@ -55,3 +55,6 @@ nl2insights/output/
 # Virtual environments
 .venv/
 env/
+
+# Maintained in its own repo: smenon2710/geopolitical-forecast-monitor
+geopolitical-forecast-monitor/
