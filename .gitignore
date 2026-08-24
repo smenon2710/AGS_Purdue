@@ -56,5 +56,8 @@ nl2insights/output/
 .venv/
 env/
 
-# Maintained in its own repo: smenon2710/geopolitical-forecast-monitor
+# Maintained in their own repos
+accuworld/
 geopolitical-forecast-monitor/
+job_search_automation/
+github-people-finder/
